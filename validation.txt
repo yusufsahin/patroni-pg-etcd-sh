@@ -1,0 +1,5 @@
+# herhangi bir node’dan
+/usr/local/bin/patronictl -c /etc/patroni/patroni.yml list
+curl -s http://<node-ip>:8008 | jq .
+# etcd
+etcdctl3 --endpoints=10.10.100.54:2379,10.10.100.55:2379,10.10.100.56:2379 endpoint status -w table
