@@ -3,7 +3,7 @@ set -euo pipefail
 
 # === Küme kimliği ve sürüm ===
 export CLUSTER_NAME="frscluster"
-export PGVER="16"
+export PGVER="15"
 
 # === Node adı/IP eşleşmesi ===
 export NODE_NAME="$(hostname -s)"
